@@ -2,11 +2,11 @@ package com.company;
 
 public class B6 {
     public static void main(String[] args) {
-        Cake tiramisu = new Tiramisu(10);
-        tiramisu.total();
+        Student thuy = new StudentFTU(true, true);
+        System.out.println(thuy.total());
 
-        Cake mousse = new Mousse(5);
-        mousse.total();
+        Student hanh = new StudentFTU(true, false);
+        System.out.println(hanh.total());
     }
 
 }

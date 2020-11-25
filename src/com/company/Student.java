@@ -1,15 +1,15 @@
 package com.company;
 
-public class Student extends People {
-    private String universityName;
+public class Student extends Family {
 
-    public Student() {
-
+    public Student(boolean isGood, boolean isPoor) {
+        this.setGood(isGood);
+        this.setPoor(isPoor);
     }
 
-    public Student(String universityName) {
-        this.universityName = universityName;
-        System.out.println(this.name);
+    public float total() {
+        return 1000;
     }
+
 
 }

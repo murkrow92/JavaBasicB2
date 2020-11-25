@@ -9,8 +9,8 @@ public class Cake {
         this.quantity = 0;
     }
 
-    public void total() {
-        System.out.println("Tong tien cua banh nay la:" + this.price * this.quantity);
+    public float total() {
+       return this.price * this.quantity;
     }
 
 
