@@ -2,8 +2,8 @@ package com.company;
 
 public class StudentFTU extends Student {
 
-    public StudentFTU(boolean isGood, boolean isPoor) {
-        super(isGood, isPoor);
+    public StudentFTU() {
+        this.setSchoolName("FTU");
     }
 
     public float total() {
