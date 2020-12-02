@@ -1,8 +1,8 @@
 package com.company.Bank;
 
-public class Techcombank extends Bank {
+public class Vietcombank extends Bank {
 
-    public Techcombank(float account, int year) {
+    public Vietcombank(float account, int year) {
         super(account, year);
     }
 
@@ -11,7 +11,7 @@ public class Techcombank extends Bank {
         int year = this.getYear();
         double sum = account;
         for (int i = 0; i < year; i++) {
-            sum = sum + 0.05 * account;
+            sum = sum + 0.05 * sum;
         }
         return sum;
     }
